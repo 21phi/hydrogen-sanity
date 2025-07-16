@@ -1,5 +1,5 @@
 {
-  "name": "hydrogen-sanity",
+  "name": "@21phi/hydrogen-sanity",
   "version": "4.3.4",
   "description": "Sanity.io toolkit for Hydrogen",
   "keywords": [
@@ -17,7 +17,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+ssh://git@github.com/sanity-io/hydrogen-sanity.git"
+    "url": "git+https://github.com/21phi/hydrogen-sanity.git"
   },
   "license": "MIT",
   "author": "Sanity.io <hello@sanity.io>",
@@ -113,8 +113,8 @@
   },
   "peerDependencies": {
     "@sanity/client": "^6.18.0 || ^7.0.0",
-    "@shopify/hydrogen": "^2023.7.0 || ~2024.1.0 || ~2024.4.0 || ~2024.7.0 || ~2024.10.0 || ~2025.1.0",
-    "@shopify/remix-oxygen": "^1.0.0 || ^2.0.0",
+    "@shopify/hydrogen": "^2023.7.0 || ~2024.1.0 || ~2024.4.0 || ~2024.7.0 || ~2024.10.0 || ~2025.1.0 || ^2025.5.0",
+    "@shopify/remix-oxygen": "^1.0.0 || ^2.0.0 || ^3.0.0",
     "groq": "^3.41.0 || ^4.0.0",
     "react": "^18.0.0",
     "react-dom": "^18.0.0"
